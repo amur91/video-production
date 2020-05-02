@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.42em;
+  background: #17191a;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+a {
+  color: inherit;
+}
+p {
+  margin-top: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+* {
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+.main-page-wrapper {
+  background: url(/assets/images/bg/hero.jpg) center top no-repeat, url(/assets/images/bg/bottom-pic.jpg) right bottom 284px no-repeat;
+}
+.container {
+  margin: 0 auto;
+  width: 1150px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+.logo {
+  display: flex;
+  top: 25px;
+  left: 0px;
+}
+.menu {
+  top: 46px;
+  left: 438px;
+}
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.menu__item_active {
+  color: #ff5400
+}
+.menu__item:last-child {
+  margin-right: 0px;
+}
+.menu__title {
+  font-size: 14px;
+  text-decoration: none;
+}
+.menu__title:hover {
+  color: #ff5400;
+}
+.contacts {
+  top: 30px;
+  right: 0px;
+  font-style: normal;
+  text-align: right;
+}
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+.contacts__workhours {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #ff5400
+}
+.contacts__info {
+  color: #9a9a9a;
+  font-size: 11px;
+}
+.hero {
+  width: 800px;
+  text-align: center;
+  margin-bottom: 248px;
+}
+.hero__header {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.hero__text {
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.button {
+  border-radius: 28px;
+  padding: 20px 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  border: 2px solid #ff3900;
+}
+.button_type_primary {
+  background: #ff3900;
+  color: #fff;
+}
+.button_type_secondary {
+  background: #fff;
+  color: #ff3900;
+  border: 2px solid;
+}
+.button:hover {
+  background: #fff;
+  color: #ff3900;
+  border: 2px solid white;
+}
+.button_type_secondary:hover {
+  background: #ff5400;
+  color: #fff;
+}
+.button_type_primary_border_solid:hover {
+  border: 2px solid;
+}
+.video-types {
+  margin-bottom: 158px;
+}
+.video-types__item {
+  min-height: 476px;
+  background: white;
+  border-radius: 6px;
+  display: inline-block;
+  width: 360px;
+  margin-right: 20px;
+}
+.video-types__item:last-child {
+  margin-right: 0px;
+}
+.video-types__picplace {
+  min-height: 115px;
+  margin-bottom: 35px;
+  padding: 30px 35px;
+}
+.video-types__content {
+  padding: 35px 30px;
+  color: #000000;
+}
+.video-types__header {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 34px;
+}
+.video-types__list {
+  display: inline-block;
+  vertical-align: top;
+  width: 110px;
+  margin-right: 41px;
+  margin-bottom: 34px;
+}
+.video-types__list:last-child {
+  margin-right: 0px;
+}
+.video-types__text {
+  font-size: 14px;
+  margin-bottom: 37px;
+  width: 275px;
+}
+.news__header {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 52px;
+}
+.news__banners {
+  margin-bottom: 50px;
+}
+.news__item {
+  display: inline-block;
+  position: relative;
+  margin-right: 30px;
+  vertical-align: top;
+}
+.news__item:last-child {
+  margin-right: 0;
+}
+.news__pic {
+  width: 555px;
+  min-height: 391px;
+  overflow: hidden;
+  border-radius: 2px;
+  object-fit: cover;
+  opacity: .7;
+}
+.news__content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px 30px;
+  min-height: 140px;
+}
+.news__date {
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+.news__title {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 24px;
+}
+.news__text {
+  width: 480px;
+}
+.paginator {
+  text-align: center;
+  margin-bottom: 150px;
+}
+.paginator__display, .paginator__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+.paginator__display {
+  margin-right: 26px;
+}
+.paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.paginator__item_active .paginator__link {
+  background: #ff5300;
+}
+.paginator__link:hover {
+  background: #ff5300;
+}
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 32px;
+}
+.about-us {
+  margin-bottom: 44px;
+}
+.about-us__section:before {
+content: "";
+display: inline-block;
+vertical-align: top;
+width: 488px;
+height: 500px;
+background: url(/assets/images/decor/cameraman.jpg) center center / cover no-repeat;
+}
+.about-us__description {
+  background: white;
+  padding: 82px 98px;
+  color: #000000;
+  display: block;
+  vertical-align: top;
+  width: 780px;
+  margin-left: 350px;
+  margin-top: -350px;
+  min-height: 455px;
+  display: inline-block;
+}
+.about-us__header {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 46px;
+}
+.about-us__text {
+  margin-bottom: 46px;
+}
+.about-us__text p {
+  margin-bottom: 20px;
+}
+.about-us__text p:last-child {
+  margin-bottom: 0px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.footer-container {
+  border-top: 1px solid #ffffff;
+}
+.socials {
+  top: 50px;
+  right: 74px;
+}
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.socials__item:last-child {
+  margin-right: 0;
+}
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+.socials__item_tg .socials__link {
+background-image: url(/assets/images/icons/socials/telegram.png);
+}
+.socials__item_vk .socials__link {
+  background-image: url(/assets/images/icons/socials/vkontakte.png);
+}
+.socials__item_fb .socials__link {
+  background-image: url(/assets/images/icons/socials/facebook.png);
+}
+.socials__item_ig .socials__link {
+  background-image: url(/assets/images/icons/socials/instagram.png);
+}
