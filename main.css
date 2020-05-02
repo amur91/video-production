@@ -93,6 +93,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 800px;
   text-align: center;
   margin-bottom: 248px;
+  width: 100%;
+}
+.hero__container {
+  margin: 0 auto;
 }
 .hero__header {
   font-size: 72px;
@@ -265,7 +269,7 @@ display: inline-block;
 vertical-align: top;
 width: 488px;
 height: 500px;
-background: url(/assets/images/decor/cameraman.jpg) center center / cover no-repeat;
+background: url(./assets/images/decor/cameraman.jpg) center center / cover no-repeat;
 }
 .about-us__description {
   background: white;
@@ -323,12 +327,24 @@ background: url(/assets/images/decor/cameraman.jpg) center center / cover no-rep
 .socials__item_tg .socials__link {
 background-image: url(/assets/images/icons/socials/telegram.png);
 }
+.socials__item_tg .socials__link:hover {
+opacity: 0.7;
+}
 .socials__item_vk .socials__link {
   background-image: url(/assets/images/icons/socials/vkontakte.png);
 }
+.socials__item_vk .socials__link:hover {
+  opacity: 0.7;
+  }
 .socials__item_fb .socials__link {
   background-image: url(/assets/images/icons/socials/facebook.png);
 }
+.socials__item_fb .socials__link:hover {
+  opacity: 0.7;
+  }
 .socials__item_ig .socials__link {
   background-image: url(/assets/images/icons/socials/instagram.png);
 }
+.socials__item_ig .socials__link:hover {
+  opacity: 0.7;
+  }
