@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 .main-page-wrapper {
-  background: url(/assets/images/bg/hero.jpg) center top no-repeat, url(/assets/images/bg/bottom-pic.jpg) right bottom 284px no-repeat;
+  background: url(./assets/images/bg/hero.jpg) center top no-repeat, url(./assets/images/bg/bottom-pic.jpg) right bottom 284px no-repeat;
 }
 .container {
   margin: 0 auto;
