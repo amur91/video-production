@@ -1,0 +1,25 @@
+.hero {
+  width: 800px;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 248px;
+  width: 100%;
+}
+.hero__container {
+  margin: 0 auto;
+}
+.hero__header {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero__text {
+  font-size: 18px;
+  margin-bottom: 38px;
+}
+.main-page-wrapper {
+  background: url(./../../assets/images/bg/hero.jpg) center top no-repeat, url(./../../assets/images/bg/bottom-pic.jpg) right bottom 284px no-repeat;
+}
