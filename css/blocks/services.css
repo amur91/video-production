@@ -1,0 +1,40 @@
+.services {
+  background: white;
+  color: black;
+}
+.services__banners {
+  padding-top: 101px;
+  padding-bottom: 90px;
+}
+.services__list {
+  display: flex;
+  flex-direction: column;
+}
+.services__item {
+  display: inline-block;
+}
+.services__pic {
+  object-fit: cover;
+  max-width: 458px;
+  max-height: 330px;
+}
+.services__content {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+.services__header {
+  margin-bottom: 46px;
+  font-weight: 700;
+  font-size: 36px;
+}
+.services__text {
+  margin-right: 392px;
+  margin-bottom: 36px;
+}
+.services__text p {
+  margin-bottom: 0;
+}
+.services__button {
+  margin-bottom: 15px;
+}

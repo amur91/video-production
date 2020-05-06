@@ -2,6 +2,10 @@
   text-align: center;
   margin-bottom: 146px;
 }
+.paginator-service {
+  margin-bottom: 0;
+}
+
 .paginator__display, .paginator__list {
   display: inline-block;
   vertical-align: middle;
@@ -16,6 +20,7 @@
 }
 .paginator__item_active .paginator__link {
   background: #ff5300;
+  color: white;
 }
 .paginator__link:hover {
   background: #ff5300;

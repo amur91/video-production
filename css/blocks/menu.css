@@ -2,6 +2,8 @@
   margin-top: 15px;
   margin-left: 0px;
   margin-right: 34px;
+  display: flex;
+  cursor: pointer;
   }
   .menu__item {
     display: inline-block;

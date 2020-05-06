@@ -23,3 +23,6 @@
 .main-page-wrapper {
   background: url(./../../assets/images/bg/hero.jpg) center top no-repeat, url(./../../assets/images/bg/bottom-pic.jpg) right bottom 284px no-repeat;
 }
+.service-page-wrapper {
+  background: url(./../../assets/images/bg/top-line.jpg) center top no-repeat;
+}

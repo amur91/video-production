@@ -6,6 +6,8 @@
 }
 .news__banners {
   margin-bottom: 46px;
+  display: flex;
+  justify-content: space-around;
 }
 .news__item {
   display: inline-block;

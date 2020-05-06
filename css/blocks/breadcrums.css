@@ -1,0 +1,19 @@
+.breadcrums__item {
+  display: inline-block;
+}
+.breadcrums__item:after {
+  content: "/";
+  display: inline-block;
+}
+.breadcrums__item:last-child:after {
+  content: "";
+  display: inline-block;
+}
+.breadcrums__link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #9a9a9a;
+}
+.breadcrums__item_active {
+  font-weight: 700;
+}
