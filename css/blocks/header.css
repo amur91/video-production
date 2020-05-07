@@ -2,5 +2,8 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 150px;
-  margin-top: 23px;
+  padding-top: 23px;
+}
+.header_service {
+  margin-bottom: 120px;
 }

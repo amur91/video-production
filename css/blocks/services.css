@@ -2,39 +2,51 @@
   background: white;
   color: black;
 }
+.services__container {
+  display: flex;
+  flex-direction: column;
+  width: 1140px;
+  margin: 0 auto;
+}
 .services__banners {
-  padding-top: 101px;
-  padding-bottom: 90px;
+  padding: 100px 0px;
 }
 .services__list {
   display: flex;
   flex-direction: column;
+  margin-bottom: 13px;
 }
 .services__item {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 .services__pic {
   object-fit: cover;
   overflow: hidden;
-  max-width: 458px;
+  border-radius: 4px;
+  min-width: 458px;
   max-height: 330px;
+  margin-right: 58px;
 }
 .services__content {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 .services__header {
   margin-bottom: 46px;
+  margin-top: 27px;
   font-weight: 700;
   font-size: 36px;
 }
 .services__text {
-  margin-right: 392px;
-  margin-bottom: 36px;
+  width: 100%;
 }
 .services__text p {
-  margin-bottom: 0;
+  margin-bottom: 36px;
+  line-height: 1.68;
+  letter-spacing: 0.1px;
 }
 .services__button {
   margin-bottom: 15px;
