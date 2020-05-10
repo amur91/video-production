@@ -1,5 +1,7 @@
 .partners {
   background: #f4f5f5;
+  padding-top: opx;
+  padding-bottom: 82px;
 }
 .partners__container {
   display: flex;
@@ -12,25 +14,29 @@
   color: #1a1b1e;
   font-size: 48px;
   font-weight: 700;
-  padding-top: 97px;
+  padding-top: 105px;
   margin-bottom: 45px;
 }
 .partners__list {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
   flex-wrap: wrap;
-  padding-bottom: 125px;
 }
 .partners__item {
-  width: 285px;
-  max-height: 45px;
-  margin-top: 50px;
-  text-align: center;
+  margin-left: 20px;
+  margin-top: 37px;
 }
-.partners__item:nth-child(4n) {
-  text-align: right
+.partners__item:hover {
+  filter: grayscale(100%)
 }
-.partners__item:nth-child(4n+1) {
-  text-align: left
+.partners__item:nth-child(4n + 1) {
+  margin-left: 0;
+}
+
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  width: 270px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
 }
