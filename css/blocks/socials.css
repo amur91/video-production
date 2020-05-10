@@ -1,11 +1,10 @@
 .socials {
-  margin-top: 7px;
-  margin-left: 90px;
+  margin-top: 10px;
   }
   .socials__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 5px;
   }
   .socials__item:last-child {
     margin-right: 0;

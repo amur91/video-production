@@ -6,9 +6,8 @@
 }
 .about-us__section:before {
 content: "";
-display: inline-block;
+display: block;
 position: absolute;
-vertical-align: top;
 width: 488px;
 height: 495px;
 background: url(./../../assets/images/decor/cameraman.jpg) center center / cover no-repeat;
@@ -22,8 +21,7 @@ background: url(./../../assets/images/decor/cameraman.jpg) center center / cover
   vertical-align: top;
   max-width: 780px;
   margin-left: auto;
-  margin-top: 150px;
-  display: inline-block;
+  margin-top: 115px;
   position: relative;
 }
 .about-us__header {

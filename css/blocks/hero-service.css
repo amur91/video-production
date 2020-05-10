@@ -3,6 +3,9 @@
 }
 .hero-service__header {
   text-align: left;
-  margin-bottom: 89px;
+  margin-bottom: 80px;
   letter-spacing: 1.5px;
+}
+.service-page-wrapper {
+  background: url(./../../assets/images/bg/top-line.jpg) center top no-repeat;
 }

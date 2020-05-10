@@ -10,11 +10,10 @@
   justify-content: space-around;
 }
 .news__item {
-  display: inline-block;
+  flex: 1;
   position: relative;
   margin-right: 25px;
   vertical-align: top;
-  width: 555px;
   height: 391px;
   overflow: hidden;
 }

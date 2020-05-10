@@ -1,17 +1,22 @@
 .breadcrums {
-  margin-bottom: 23px;
+  margin-bottom: 25px;
+}
+.breadcrums__list {
+  display: flex;
+  justify-content: flex-start;
 }
 .breadcrums__item {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.1px;
 }
 .breadcrums__item:after {
   content: "/";
+  margin: 0 3px;
   display: inline-block;
 }
 .breadcrums__item:last-child:after {
-  content: "";
-  display: inline-block;
+  display: none;
 }
 .breadcrums__link {
   text-decoration: none;
