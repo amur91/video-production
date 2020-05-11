@@ -1,13 +1,12 @@
 .menu {
   margin-top: 15px;
   display: flex;
-  justify-content: space-between
   cursor: pointer;
   }
 
   .menu__item {
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 50px;
   }
   .menu__item_active {
     color: #ff5400

@@ -14,16 +14,14 @@
   vertical-align: top;
   border-radius: 6px;
   padding: 27px 25px 47px;
-  margin-right: 27px;
   vertical-align: top;
   border: 7px solid white;
+  width: 32%;
 }
 .video-types__item:hover {
   border: 7px solid #cccccc;
 }
-.video-types__item:last-child {
-  margin-right: 0px;
-}
+
 .video-types__picplace {
   margin-bottom: 30px;
   margin-right: 218px;

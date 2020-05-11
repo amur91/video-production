@@ -1,9 +1,9 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 128px;
+  margin-bottom: 93px;
   padding-top: 23px;
 }
-.header_service {
+.header_another {
   margin-bottom: 115px;
 }

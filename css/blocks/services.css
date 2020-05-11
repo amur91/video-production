@@ -9,12 +9,12 @@
   margin: 0 auto;
 }
 .services__banners {
-  padding: 96px 0px;
+  padding: 104px 0px;
 }
 .services__list {
   display: flex;
   flex-direction: column;
-  margin-bottom: 13px;
+  margin-bottom: 9px;
 }
 .services__item {
   display: flex;
@@ -33,6 +33,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 55%;
 }
 .services__header {
   margin-bottom: 46px;
@@ -44,7 +45,7 @@
   width: 100%;
 }
 .services__text p {
-  margin-bottom: 36px;
+  margin-bottom: 30px;
   line-height: 1.68;
   letter-spacing: 0.1px;
 }
