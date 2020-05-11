@@ -18,6 +18,7 @@
 }
 .services__item {
   display: flex;
+  flex-shrink: 0;
   justify-content: space-between;
   margin-bottom: 50px;
 }
