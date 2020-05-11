@@ -52,6 +52,6 @@ table {
   min-width: 1200px;
 }
 img {
-  display: block;
+  display: inline-block;
   max-width: 100%;
 }
