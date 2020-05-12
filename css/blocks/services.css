@@ -26,8 +26,8 @@
   object-fit: cover;
   overflow: hidden;
   border-radius: 4px;
-  min-width: 458px;
-  max-height: 330px;
+  width: 40%;
+  height: 330px;
   margin-right: 58px;
 }
 .services__content {
