@@ -1,0 +1,22 @@
+.sale-container {
+  background: url(./../../assets/images/decor/party.png) right 27% bottom 40% no-repeat;
+}
+.sale {
+  font-size: 48px;
+  font-weight: 700;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+}
+.sale__header, .sale__emph {
+  display: inline-block;
+}
+.sale__emph {
+  color: #ff3900;
+}
+.sale__header {
+  max-width: 48%;
+  line-height: 58px;
+}
