@@ -7,16 +7,17 @@ display: flex;
 justify-content: space-between;
 flex-direction: column;
 align-items: center;
-animation: welcome 1s linear;
+animation: welcome .9s linear;
+animation-fill-mode: forwards;
 }
 @keyframes welcome {
   0%
   {
     opacity: 0;
-    transform: scale(.2) rotate(20deg);
+    transform: scale(.1) rotate(30deg);
   }
   40% {
-    transform: rotate(-15deg);
+    transform: rotate(-10deg);
   }
   60% {
     transform: rotate(5deg);
@@ -25,7 +26,8 @@ animation: welcome 1s linear;
     scale(1)
   }
   100% {
-    
+    opacity: 1;
+    transform: scale(1);
   }
 }
 .welcome__pic {
